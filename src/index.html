@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word to Gif - Random word, random gif!</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="" alt="logo" />
+      <h2>RANDOM WORD TO GIF</h2>
+      <p>Get a random word and shows a representative gif</p>
+    </header>
+
+    <div class="loader hidden">
+      <img src="./imgs/loading.gif" alt="loading..." />
+    </div>
+
+    <main>
+      <p class="loaded-word"></p>
+      <img class="loaded-img" />
+      <p>Image loaded from Giphy API.</p>
+    </main>
+
+    <section class="options">
+      <button class="get-image">Generate</button>
+      <button class="get-link">Copy link!</button>
+    </section>
+
+    <footer class="footer"></footer>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
